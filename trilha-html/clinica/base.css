@@ -1,0 +1,57 @@
+html, body {
+    margin: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+}
+form{
+    text-align: center;
+    border: solid 1px;
+    height: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+
+   
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+    padding: 10px;
+    
+}
+.menu {
+    width: 15%;
+    padding: 10px 20px 0px;
+    background-color: rgb(242, 243, 245);
+}
+.header {
+    min-height: 150px;
+    text-align: center;
+    
+     
+}
+
+table{
+    width: 100%;
+    margin-bottom : .5em;
+    table-layout: fixed;
+    text-align: center;
+  }
+  
+.content {
+    min-height: 300px;
+    padding: 20px;
+    text-align: center;
+}
+.footer {
+    min-height: 150px;
+}
